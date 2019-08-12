@@ -31,7 +31,7 @@ class JsonWidgetBuilder implements Builder {
     final StringBuffer output = StringBuffer();
     // write the header.
     output.write(r'''
-    import 'package:flutter/widgets.dart';
+    import 'package:flutter/material.dart';
 
     class GeneratedWidget extends StatelessWidget {
 
