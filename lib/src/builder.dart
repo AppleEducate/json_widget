@@ -64,7 +64,6 @@ class JsonWidgetBuilder implements Builder {
   };
 }
 
-@visibleForTesting
 class WidgetGenerator {
   const WidgetGenerator();
 
