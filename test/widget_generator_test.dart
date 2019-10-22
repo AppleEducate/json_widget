@@ -4,8 +4,8 @@
 
 import 'dart:convert';
 
+import 'package:flutter_test/flutter_test.dart';
 import 'package:json_widget/src/builder.dart';
-import 'package:test/test.dart';
 
 const example = '''
 {

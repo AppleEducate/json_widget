@@ -2,8 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:build/build.dart';
+import 'package:build/build.dart' as build;
 import 'src/builder.dart';
+export 'src/widgets/builder.dart';
 
 /// Creates a [JsonWidgetBuilder]
-Builder jsonWidgetBuilder(BuilderOptions builderOptions) => const JsonWidgetBuilder();
+build.Builder jsonWidgetBuilder(build.BuilderOptions builderOptions) =>
+    const JsonWidgetBuilder();
